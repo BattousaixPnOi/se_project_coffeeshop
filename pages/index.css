@@ -42,7 +42,6 @@
   max-width: 729px;
   margin-bottom: 28px;
   margin-top: 183px;
-  margin-left: 80px;
 }
 
 .header__description {
@@ -52,7 +51,6 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 0;
-  margin-left: 80px;
   margin-bottom: 0;
   max-width: 683px;
 }
@@ -69,7 +67,6 @@
 
 .header__footer {
   margin-top: auto;
-  margin-left: 80px;
   margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
@@ -178,4 +175,103 @@
   justify-content: space-between;
   margin-bottom: 0;
   margin-top: 24px;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0 120px;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+
+.form__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  height: 60px;
+  padding-left: 15px;
+}
+
+.form__button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 2px;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 32px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #2f80ed;
+  color: #fff;
+  border-color: #838383;
+  border: none;
+  transition: opacity 2s linear;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+::placeholder {
+  color: #838383;
+  text-align: left;
+  padding-left: 0.5px;
 }
