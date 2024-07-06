@@ -6,7 +6,7 @@
     <meta name="description" content="Eli's Coffee Shop" />
     <meta name="keywords" content="Coffee Shop" />
     <meta name="author" content="Eli Medriano" />
-    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="browser icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,29 +17,93 @@
     />
     <title>Coffee Shop</title>
   </head>
+
   <body>
     <div class="page">
       <header class="header">
-        <!-- first section-->
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Espresso Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#recipes">Recipes</a></li>
+            <li><a class="nav__link" href="#menu">Menu</a></li>
+            <li><a class="nav__link" href="#reservation">Book a table</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>in the Triple
+          Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and
+          the cozy vibes to help you get creative.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Inside Coffee Shop"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
       </header>
+
       <main class="content">
-        <!-- Main section-->
-        <section class="recipes">
-          <!-- section -->
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=ceea0plqEhFcwc7t"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                frameborder="0"
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span><span>~5 min</span>
+              </p>
+            </div>
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8?si=j6dIL_GkS39o944M"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                frameborder="0"
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span><span>~15 min</span>
+              </p>
+            </div>
+          </div>
         </section>
-        <section class="reservation">
-          <!-- section -->
-        </section>
-        <section class="menu">
-          <!-- section -->
-        </section>
-        <section class="about">
-          <!-- section -->
-        </section>
+        <section class="reservation"></section>
+        <section class="menu"></section>
+        <section class="about"></section>
       </main>
-      <footer class="footer">
-        <!-- footer -->
-      </footer>
+      <footer class="footer"></footer>
     </div>
   </body>
 </html>
