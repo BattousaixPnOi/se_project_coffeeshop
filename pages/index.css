@@ -121,7 +121,7 @@
 }
 
 .nav__link:hover {
-  color: #d35722;
+  color: hsl(207, 100%, 50%);
 }
 
 .recipes {
