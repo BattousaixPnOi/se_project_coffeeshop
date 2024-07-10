@@ -7,7 +7,6 @@
     <meta name="keywords" content="Coffee Shop" />
     <meta name="author" content="Eli Medriano" />
     <link rel="browser icon" href="./favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -243,22 +242,41 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-
-      <!-- ================================================================= -->
-      <!-- ================================================================= -->
-
-      <footer class="footer">
+      <footer class="footer" id="contact">
         <div class="footer__content">
-          <img
-            src="./images/logo_coffeeshop_light.svg"
-            alt="coffee shop dark logo"
-            class="footer__logo"
-          />
+          <div class="footer__contents">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="coffee shop dark logo"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__content footer__social_media">
+            <ul class="footer__list">
+              <h3 class="footer__social-heading">Social media</h3>
+              <li class="footer_list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="facebook icon"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="instagram icon"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+        <p class="footer__copyright">© 2024 Eli Medriano</p>
       </footer>
-
-      <!-- ================================================================= -->
-      <!-- ================================================================= -->
     </div>
   </body>
 </html>
